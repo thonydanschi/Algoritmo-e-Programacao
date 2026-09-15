@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Exercício8Aula4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Digite a senha: ");
+        String senha = sc.next();
+
+        if (senha.equals("R10p5")) {
+            System.out.println("Acesso concedido");
+        } else {
+            System.out.println("Acesso negado");
+        }
+    }
+}
